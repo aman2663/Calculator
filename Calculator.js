@@ -34,3 +34,7 @@ function evalxyz(){
   function backxyz(){
     displayxyz.innerText = displayxyz.innerText.slice(0, -1);
   }
+function myfunction(){
+    var x=document.body;
+    x.classList.toggle("dark-mode");
+}
